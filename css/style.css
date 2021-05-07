@@ -56,7 +56,7 @@ div.cover_cont{
 }
 /*GET EVERY SINGLE SOLUTION*/
 .solution{
-	color: #dc3545;
+	color: #e79e4f;
 	margin-top: 50px;
 	margin-bottom: 8px;
 	font-family: 'Rubik', sans-serif;
@@ -85,3 +85,115 @@ span.description{
 	font-size: 2.5em;
 }
 /*End of Cover*/
+@media (min-width: 0px) and (max-width: 576px) and (orientation: landscape){
+	.solution{
+		font-size: 0.5em;
+		margin-top: 1vh;
+		margin-bottom: 5px;
+	}
+	#cover h1{
+		font-size: 0.8em;
+	}
+	div.name{
+		margin-bottom: 2px;
+	}
+	span.description i{
+		font-size: 4px;
+	}
+	span.description{
+		font-size: 0.55em;
+	}
+	div.content{
+		padding-left:50vh;
+	}
+}
+@media (min-width: 0px) and (max-width: 320px) and (orientation: portrait){
+	div.cover_cont{
+		margin-right: -10px;
+	}
+	.solution{
+		font-size: 0.5em;
+		margin-top: 5vh;
+		margin-bottom: 5px;
+	}
+	#cover h1{
+		font-size: 0.8em;
+	}
+	div.name{
+		margin-bottom: 2px;
+	}
+	span.description i{
+		font-size: 4px;
+	}
+	span.description{
+		font-size: 0.55em;
+	}
+	div.content{
+		padding-left:10vh;
+	}
+}
+@media (min-width: 321px) and (max-width: 370px) and (orientation: portrait){
+	div.cover_cont{
+		margin-right: -10px;
+	}
+	.solution{
+		font-size: 0.7em;
+		margin-top: 7vh;
+		margin-bottom: 5px;
+	}
+	#cover h1{
+		font-size: 0.8em;
+	}
+	div.name{
+		margin-bottom: 2px;
+	}
+	span.description i{
+		font-size: 4px;
+	}
+	span.description{
+		font-size: 0.7em;
+	}
+	div.content{
+		padding-left:10vh;
+	}
+}
+@media (min-width: 371px) and (max-width: 576px) and (orientation: portrait){
+	.solution{
+		font-size: 0.7em;
+		margin-top: 7vh;
+		margin-bottom: 7px;
+	}
+	#cover h1{
+		font-size: 1em;
+	}
+	div.name{
+		margin-bottom: 7px;
+	}
+	span.description i{
+		font-size: 4px;
+	}
+	span.description{
+		font-size: 0.7em;
+	}
+	div.content{
+		padding-left: 13vh;
+	}
+}
+@media (min-width: 1200px) and (orientation: landscape){
+	#cover{
+		margin-top: -10vh;
+	}
+	.solution{
+		font-size: 1.5em;
+		padding-top: 2vh;
+	}
+	#cover h1{
+		font-size: 2.5em;
+	}
+	span.description i{
+		font-size: 10px;
+	}
+	span.description{
+		font-size:1.5em;
+	}
+}
