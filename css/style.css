@@ -6,9 +6,82 @@
     style.css: You will write your css code for your portfolio website here. You can add other css files too but it must be under "css" folder.
 
 */
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+/*Navbar*/
 nav{
 	background: rgb(50,31,40);
 	background: linear-gradient(90deg, rgba(50,31,40,1) 0%, rgba(160,83,68,1) 35%, rgba(231,158,79,1) 100%);
 	font-family: 'Itim', cursive;
 	font-size: 25px;
 }
+/*Cover*/
+#cover{
+	background-image:url('../assets/cover_bg.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 90px;
+	padding-right: 25px;
+	z-index: 1;
+	height: 100vh;
+}
+div.cover_cont{
+		margin-right: 20px;
+	}
+/*About H1*/
+.content h1{
+	font-family: 'Prompt', sans-serif;
+	float: right;
+	clear: both;
+	z-index: 2;
+	margin: 0px;
+	color:#ffffff;
+}
+/*Content*/
+.content {
+	margin-left: auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*GET EVERY SINGLE SOLUTION*/
+.solution{
+	color: #dc3545;
+	margin-top: 50px;
+	margin-bottom: 8px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+}
+/*Code icon*/
+.solution i{
+	vertical-align: middle;
+}
+/*Name*/
+div.name{
+	margin-bottom: 8px;
+}
+/*Quote icon*/
+span.description i{
+	vertical-align: text-top;
+}
+/*Description Content*/
+span.description{
+	color: #d2d4d4;
+	font-style: italic;
+	font-size:1.3em;
+	font-style: 'Rubik', sans-serif; 
+}
+#cover h1{
+	font-size: 2.5em;
+}
+/*End of Cover*/
