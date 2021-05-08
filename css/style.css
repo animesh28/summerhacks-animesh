@@ -147,6 +147,7 @@ span.description{
 	border-radius: 25px;
 	background: transparent;
 	border: none;
+	perspective: 1000px;
 }
 .card_inner{
 	width: 100%;
@@ -215,6 +216,22 @@ span.description{
 	font-size: 16px;
 	font-weight: 600;
 }
+@media (min-width: 0px) and (max-width: 768px) and (orientation: portrait){
+	.card_container{
+		flex-direction: column;
+	}
+	#about_sub div:nth-of-type(1){
+		padding: 10vh;
+	}
+	.service_desrcip{
+		padding: 0px 15px 0px 15px;
+	}
+}
+@media (min-width: 0px) and (max-width: 768px) and (orientation: landscape){
+	.card_container{
+		flex-direction: column;
+	}
+}
 @media (min-width: 0px) and (max-width: 576px) and (orientation: landscape){
 	.solution{
 		font-size: 0.5em;
@@ -261,6 +278,18 @@ span.description{
 	div.content{
 		padding-left:10vh;
 	}
+	.card_header{
+		padding-bottom: 20px;
+	}
+	.card_body{
+		font-size: 13.5px;
+	}
+	.serv1{
+		height: 160vh;
+	}
+	.serv2{
+		height: 115vh;
+	}
 }
 @media (min-width: 321px) and (max-width: 370px) and (orientation: portrait){
 	div.cover_cont{
@@ -286,6 +315,18 @@ span.description{
 	div.content{
 		padding-left:10vh;
 	}
+	.card_header{
+		padding-bottom: 20px;
+	}
+	.card_body{
+		font-size: 15.5px;
+	}
+	.serv1{
+		height: 140vh;
+	}
+	.serv2{
+		height: 125vh;
+	}
 }
 @media (min-width: 371px) and (max-width: 576px) and (orientation: portrait){
 	.solution{
@@ -307,6 +348,29 @@ span.description{
 	}
 	div.content{
 		padding-left: 13vh;
+	}
+	.card_header{
+		padding-bottom: 30px;
+	}
+	.serv1{
+		height: 130vh;
+	}
+	.serv2{
+		height: 128vh;
+	}
+}
+@media (min-width: 577px) and (max-width: 768px) and (orientation: portrait){
+	.card_body{
+		font-size: 25px;
+	}
+	.serv1{
+		height: 110vh;
+	}
+	.serv2{
+		height: 130vh;
+	}
+	.card h2{
+		font-size: 40px;
 	}
 }
 @media (min-width: 577px) and (max-width: 767px) and (orientation: portrait){
@@ -407,6 +471,24 @@ span.description{
 	}
 	div.content{
 		padding-left: 13vh;
+	}
+	.card_inner{
+		height: 50vh;
+	}
+	.card_face{
+		height: 50vh;
+	}
+	.serv1{
+		height: 45vh;
+	}
+	.serv2{
+		height: 40vh;
+	}
+	#about_sub div:nth-of-type(1){
+		padding: 5vh;
+	}
+	.about_pic{
+		margin-top: 10vh;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape){
