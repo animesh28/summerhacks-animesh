@@ -218,7 +218,7 @@ span.description{
 }
 .tech{
 	width: 100%;
-	height: 40vh;
+	height: 35vh;
 	background-color: #e79e4f;
 }
 .tech h2{
@@ -325,6 +325,16 @@ div.icons{
 	.serv2{
 		height: 115vh;
 	}
+	.tech{
+		height: 72vh;
+	}
+	.tech i{
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+	.tech i:nth-of-type(5){
+		margin-bottom: 0px;
+	}
 }
 @media (min-width: 321px) and (max-width: 370px) and (orientation: portrait){
 	div.cover_cont{
@@ -362,6 +372,16 @@ div.icons{
 	.serv2{
 		height: 125vh;
 	}
+	.tech{
+		height: 65vh;
+	}
+	.tech i{
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+	.tech i:nth-of-type(5){
+		margin-bottom: 0px;
+	}
 }
 @media (min-width: 371px) and (max-width: 576px) and (orientation: portrait){
 	.solution{
@@ -393,6 +413,19 @@ div.icons{
 	.serv2{
 		height: 128vh;
 	}
+	.tech{
+		height: 48vh;
+	}
+	.tech i{
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+	.tech i:nth-of-type(5){
+		margin-bottom: 0px;
+	}
+	div.icons{
+		word-spacing: 10px;
+	}
 }
 @media (min-width: 577px) and (max-width: 768px) and (orientation: portrait){
 	.card_body{
@@ -406,6 +439,9 @@ div.icons{
 	}
 	.card h2{
 		font-size: 40px;
+	}
+	.tech{
+		height: 25vh;
 	}
 }
 @media (min-width: 577px) and (max-width: 767px) and (orientation: portrait){
@@ -551,6 +587,10 @@ div.icons{
 	}
 	.about_pic{
 		margin-top: 10vh;
+	}
+	.tech{
+		margin-top: -15vh;
+		height: 20vh;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape){
