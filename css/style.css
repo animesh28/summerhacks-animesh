@@ -288,6 +288,9 @@ div.icons{
 	.serv2{
 		height: 190vh;
 	}
+	.tech{
+		height: 100vh;
+	}
 }
 @media (min-width: 0px) and (max-width: 320px) and (orientation: portrait){
 	div.cover_cont{
@@ -493,6 +496,9 @@ div.icons{
 	.serv2{
 		height: 130vh;
 	}
+	.tech{
+		height: 60vh;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px) and (orientation: portrait){
 	
@@ -550,6 +556,9 @@ div.icons{
 	}
 	.serv2{
 		height: 130vh;
+	}
+	.tech{
+		height: 58vh;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) and (orientation: portrait){
