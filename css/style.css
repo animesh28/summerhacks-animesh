@@ -253,6 +253,18 @@ span.description{
 	div.content{
 		padding-left:50vh;
 	}
+	.card_inner{
+		height: 120vh;
+	}
+	.card_face{
+		height: 120vh;
+	}
+	.serv1{
+		height: 250vh;
+	}
+	.serv2{
+		height: 190vh;
+	}
 }
 @media (min-width: 0px) and (max-width: 320px) and (orientation: portrait){
 	div.cover_cont{
@@ -410,6 +422,18 @@ span.description{
 	span.description{
 		font-size: 0.7em;
 	}
+	.card_inner{
+		height: 80vh;
+	}
+	.card_face{
+		height: 80vh;
+	}
+	.serv1{
+		height: 180vh;
+	}
+	.serv2{
+		height: 130vh;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px) and (orientation: portrait){
 	
@@ -452,6 +476,21 @@ span.description{
 	}
 	div.content{
 		padding-left: 30vh;
+	}
+	.card_container{
+		flex-direction: column;
+	}
+	.card_inner{
+		height: 80vh;
+	}
+	.card_face{
+		height: 80vh;
+	}
+	.serv1{
+		height: 170vh;
+	}
+	.serv2{
+		height: 130vh;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) and (orientation: portrait){
@@ -508,7 +547,15 @@ span.description{
 	}
 	div.content{
 		padding-left: 30vh;
-
+	}
+	.card_back h2{
+		padding: 0px;
+	}
+	.card_header{
+		padding-bottom: 25px;
+	}
+	.card_body{
+		font-size: 15.5px;
 	}
 }
 @media (min-width: 1200px) and (orientation: landscape){
@@ -527,5 +574,17 @@ span.description{
 	}
 	span.description{
 		font-size:1.5em;
+	}
+	#about{
+		height: 100vh;
+	}
+	#about_sub{
+		height: 100vh;
+	}
+	#about_sub div:nth-of-type(1){
+		padding: 20vh 15vh 20vh 15vh; 
+	}
+	.about_pic{
+		margin-top: 20vh;
 	}
 }
