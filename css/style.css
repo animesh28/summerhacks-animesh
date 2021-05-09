@@ -239,6 +239,74 @@ div.icons{
 	margin-top: 50px;
 	word-spacing: 30px;
 }
+#achieve{
+	width: 100%;
+	background: rgb(50,31,40);
+	background: linear-gradient(90deg, rgba(50,31,40,1) 0%, rgba(160,83,68,1) 35%, rgba(231,158,79,1) 100%);
+	padding-top: 10px;
+}
+#achieve_sub{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+.achieve_card{
+	position: relative;
+	max-width: 300px;
+	height: 180px;
+	margin: 30px 30px 20px 30px;
+	padding: 20px 15px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 3px 18px 3px rgba(0,0,0,0.7);
+	transition: 0.3s ease-in-out;
+}
+.achieve_card:hover{
+	height: 290px;
+}
+.imgBox{
+	position: relative;
+	display: flex;
+    justify-content: center;
+	width: 260px;
+	height: 180px;
+	top: -50px;
+	left: 5px;
+}
+.imgBox img{
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 10px;
+}
+.ach_head{
+	font-family: 'Itim', cursive;
+	font-weight: 700;
+	color: #fff;
+}
+.achieve_card h2{
+	font-family: 'Itim', cursive;
+	font-weight: 600;
+	font-size: 1.5rem;
+} 
+.card_content{
+	position: relative;
+	margin-top: -40px;
+	padding: 10px 15px;
+	text-align: center;
+	color: #111;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+}
+.achieve_card:hover .card_content{
+	visibility: visible;
+	opacity: 1;
+}
 @media (min-width: 0px) and (max-width: 768px) and (orientation: portrait){
 	.card_container{
 		flex-direction: column;
