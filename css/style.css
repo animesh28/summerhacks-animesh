@@ -293,7 +293,7 @@ div.icons{
 	font-weight: 600;
 	font-size: 1.5rem;
 } 
-.card_content{
+.achieve_card .card_content{
 	position: relative;
 	margin-top: -40px;
 	padding: 10px 15px;
@@ -306,6 +306,146 @@ div.icons{
 .achieve_card:hover .card_content{
 	visibility: visible;
 	opacity: 1;
+}
+#contact{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 50px 100px;
+	background: rgb(231,158,79);
+	background: linear-gradient(90deg, rgba(231,158,79,1) 0%, rgba(160,83,68,1) 35%, rgba(50,31,40,1) 100%);
+	color: #fff;
+}
+.contact_descrip{
+	max-width: 800px;
+	text-align: center;
+}
+.contact_descrip h2{
+	font-family: 'Itim', cursive;
+	font-size: 36px;
+	font-weight: 600;
+}
+.contact_descrip p{
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+}
+.contact_sub{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contactInfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.contactInfo .box{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.contactInfo .box .icon{
+	min-width: 60px;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: #734046;
+}
+.contactInfo .box .text{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	font-size: 16px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+}
+.contactInfo .box .text h3{
+	font-family: 'Itim', cursive;
+	font-weight: 500;
+}
+.contactForm{
+	width: 40%;
+	background-color: #fff;
+	color: #333;
+	padding: 40px;
+	border-radius: 20px; 
+}
+.contactForm h2{
+	font-family: 'Itim', cursive;
+	font-weight: 600;
+	color: #734046;
+}
+.contactForm .inputBox{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.contactForm .inputBox input,textarea{
+	width: 100%;
+	padding: 5px 0px;
+	font-size: 16px;
+	margin: 10px 0px;
+	border: none;
+	border-bottom: 2px solid #734046;
+	resize: none;
+}
+.contactForm .inputBox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0px;
+	font-size: 16px;
+	margin: 10px 0px;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+	color: #734046;
+	font-size: 14px;
+	transform: translateY(-25px);
+}
+.inputBox button{
+	width: 100px;
+	border-radius: 20px;
+	border-color: #734046;
+	color: #666;
+}
+.inputBox button:hover{
+    background-color: #734046;
+    border-color: #734046;
+}
+.icon a{
+	color: #734046;
+}
+.box .text a{
+	text-decoration: none;
+	color: #fff;
+}
+
+@media (max-width: 991px){
+	#contact{
+		padding: 50px;
+	}
+	.contact_sub{
+		flex-direction: column;
+	}
+	.contactInfo{
+		margin-bottom: 40px;
+	}
+	.contactInfo, .contactForm{
+		width: 100%;
+	}
 }
 @media (min-width: 0px) and (max-width: 768px) and (orientation: portrait){
 	.card_container{
@@ -405,6 +545,9 @@ div.icons{
 	}
 	.tech i:nth-of-type(5){
 		margin-bottom: 0px;
+	}
+	.contactInfo .box .icon{
+		margin-left: -20px;
 	}
 }
 @media (min-width: 321px) and (max-width: 370px) and (orientation: portrait){
