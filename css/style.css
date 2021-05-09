@@ -871,7 +871,7 @@ div.foot{
 }
 @media (min-width: 1200px) and (orientation: landscape){
 	#cover{
-		margin-top: -10vh;
+		margin-top: -5vh;
 	}
 	.solution{
 		font-size: 1.5em;
