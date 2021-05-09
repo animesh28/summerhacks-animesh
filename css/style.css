@@ -461,6 +461,9 @@ div.foot{
 	letter-spacing: 20px;
 	font-size: 22px;
 }
+.social a{
+	color: #e79e4f;
+}
 @media (max-width: 991px){
 	#contact{
 		padding: 50px;
